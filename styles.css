@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+select, button {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pantallaOcualta {
+  display: none;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Precio de Cursos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora de Precio de Cursos</h1>
+
+    <label for="curso">Elige un curso:</label>
+    <select id="curso">
+        <option value="course">Course</option>
+        <option value="carrera">Carrera</option>
+        <option value="master">Master</option>
+    </select>
+
+    <label for="beca">¿Cuentas con alguna beca?</label>
+    <select id="beca">
+        <option value="sin-beca">Sin Beca</option>
+        <option value="facebook">Beca Facebook</option>
+        <option value="google">Beca Google</option>
+        <option value="jesua">Beca Jesua</option>
+    </select>
+
+    <button onclick="calcularPrecio()">Calcular Precio</button>
+
+    <div id="resultado" class="pantallaOcualta">
+        <p>El precio mensual con descuento es: <span id="precio-mensual"></span></p>
+        <p>El precio total del curso con descuento es: <span id="precio-total-descuento"></span></p>
+        <p>El precio total del curso sin descuento es: <span id="precio-total"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
